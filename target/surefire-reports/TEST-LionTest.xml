@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="8" failures="0" name="LionTest" time="0.028" errors="0" skipped="0">
+<testsuite tests="6" failures="0" name="LionTest" time="0.032" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.18+10-LTS"/>
@@ -65,12 +65,10 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="LionTest" name="checkLionManeAvailability[0]" time="0.004"/>
-  <testcase classname="LionTest" name="checkLionGetKittens[0]" time="0.013"/>
-  <testcase classname="LionTest" name="checkLionException[0]" time="0.002"/>
-  <testcase classname="LionTest" name="checkLionGetFoodAsPredator[0]" time="0.005"/>
+  <testcase classname="LionTest" name="checkLionManeAvailability[0]" time="0.003"/>
+  <testcase classname="LionTest" name="checkLionGetKittens[0]" time="0.017"/>
+  <testcase classname="LionTest" name="checkLionGetFoodAsPredator[0]" time="0.008"/>
   <testcase classname="LionTest" name="checkLionManeAvailability[1]" time="0.001"/>
   <testcase classname="LionTest" name="checkLionGetKittens[1]" time="0.002"/>
-  <testcase classname="LionTest" name="checkLionException[1]" time="0"/>
   <testcase classname="LionTest" name="checkLionGetFoodAsPredator[1]" time="0.001"/>
 </testsuite>

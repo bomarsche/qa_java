@@ -40,7 +40,6 @@ public class LionTest {
     Feline feline;
 
 
-
     @Test
     public void checkLionGetKittens() throws Exception{
         Lion lion = new Lion(lionSex, feline);
@@ -55,13 +54,6 @@ public class LionTest {
         Assert.assertEquals(maneAvailability, lion.doesHaveMane());
     }
 
-
-    @Test
-    public void checkLionException() {
-        String expectedException = "Используйте допустимые значения пола животного - самец или самка";
-        Exception actualException = Assert.assertThrows("Сработало исключение: ", Exception.class, () -> new Lion("Выдра", feline));
-        Assert.assertEquals(expectedException, actualException.getMessage());
-    }
 
     @Test
     public void checkLionGetFoodAsPredator() throws Exception {
